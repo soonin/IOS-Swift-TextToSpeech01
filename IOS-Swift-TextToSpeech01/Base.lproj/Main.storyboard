@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Text Here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2xf-e5-Yeu">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter Text To be Spoken Here .." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2xf-e5-Yeu">
                                 <rect key="frame" x="32" y="28" width="310" height="243"/>
                                 <color key="backgroundColor" red="0.86162301740000002" green="0.97679832229999997" blue="0.9881622779" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>

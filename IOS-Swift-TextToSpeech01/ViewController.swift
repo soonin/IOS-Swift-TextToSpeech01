@@ -44,14 +44,17 @@ class ViewController: UIViewController {
             break;
         }
         
-        let uttrace = AVSpeechUtterance(string: textHere.text! )
-        uttrace.voice = AVSpeechSynthesisVoice(language: lang)
-        uttrace.rate = 0.5
+        self.readMe(myText: textHere.text! , myLang: lang)
+        
+    }
+    
+    func readMe( myText: String , myLang : String) {
+        let utterance = AVSpeechUtterance(string: myText )
+        utterance.voice = AVSpeechSynthesisVoice(language: myLang)
+        utterance.rate = 0.5
         
         let synthesizer = AVSpeechSynthesizer()
-        synthesizer.speak(uttrace)
-        
-        
+        synthesizer.speak(utterance)
     }
     
 }
